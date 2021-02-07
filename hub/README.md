@@ -1,4 +1,14 @@
-# GMiner
+# Quick reference
+
+**Maintained by**: [The Dockminer Team](https://github.com/dockminer/gminer)
+
+**Where to get help**: [Dockminer GMiner issues](https://github.com/dockminer/gminer/issues), or [GMiner GitHub Repository](https://github.com/develsoftware/GMinerRelease)
+
+# Supported tags and respective `Dockerfile` links
+
+- [`2.44`, `latest`](https://github.com/dockminer/T-Rex/blob/31943a3d3a19d26407c3f9304643dcfd06455bd7/Dockerfile)
+
+# What is GMiner?
 
 GMiner was created by a Russian group of specialists in the field of high performance computing and cryptography.
 
@@ -14,7 +24,7 @@ The development team never stops at what has been achieved and achieves the maxi
 
 For a detailed description of features read [here](https://github.com/develsoftware/GMinerRelease).
 
-## How to use this image
+# How to use this image
 
 Run the following commands in your terminal:
 
@@ -24,7 +34,7 @@ The container should up and start mining.
 
 In default, the docker expose the 8080 port for GMiner monitoring page, you can connect http://localhost:8080 to see the web page.
 
-## Image Information
+# Image Information
 
 This image is built on top of the following softwares:
 
