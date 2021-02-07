@@ -6,7 +6,7 @@
 
 # Supported tags and respective `Dockerfile` links
 
-- [`2.44`, `latest`](https://github.com/dockminer/T-Rex/blob/31943a3d3a19d26407c3f9304643dcfd06455bd7/Dockerfile)
+- [`2.44`, `latest`](https://github.com/dockminer/gminer/blob/e027349fcc332699d7dd4f389a3a0f5af4463d1c/Dockerfile)
 
 # What is GMiner?
 
