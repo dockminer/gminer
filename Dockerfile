@@ -12,6 +12,9 @@ LABEL maintainer="Dockminer"
 
 LABEL org.opencontainers.image.source https://github.com/dockminer/gminer
 
+# Fix Driver bug
+RUN ln -s /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.1 /usr/lib/x86_64-linux-gnu/libnvidia-ml.so
+
 COPY --from=builder /tmp/gminer/miner /usr/local/bin/miner
 
 EXPOSE 8080
