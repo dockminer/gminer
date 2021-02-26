@@ -3,7 +3,7 @@ FROM ubuntu:20.04 AS builder
 RUN apt update && apt install tar wget -y
 
 RUN wget https://github.com/develsoftware/GMinerRelease/releases/download/2.45/gminer_2_45_linux64.tar.xz && \
-    tar jxf gminer_2_45_linux64.tar.xz -d /tmp/gminer
+    tar xf gminer_2_45_linux64.tar.xz -d /tmp/gminer
 
 
 FROM nvidia/cuda:10.2-base
