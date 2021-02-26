@@ -3,7 +3,7 @@ FROM ubuntu:20.04 AS builder
 WORKDIR /tmp
 
 RUN mkdir gminer &&\
-    apt update && apt install tar wget -y
+    apt update && apt install tar wget xz-utils -y
 
 RUN wget https://github.com/develsoftware/GMinerRelease/releases/download/2.45/gminer_2_45_linux64.tar.xz && \
     tar xf gminer_2_45_linux64.tar.xz -C gminer
