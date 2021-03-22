@@ -41,4 +41,4 @@ In default, the docker expose the 8080 port for GMiner monitoring page, you can 
 This image is built on top of the following softwares:
 
 - [Nvidia CUDA Container](https://gitlab.com/nvidia/container-images/cuda) v10.2
-- [GMiner](https://github.com/develsoftware/GMinerRelease) v2.46
+- [GMiner](https://github.com/develsoftware/GMinerRelease) v2.47
