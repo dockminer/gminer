@@ -5,8 +5,8 @@ WORKDIR /tmp
 RUN mkdir gminer &&\
     apt update && apt install tar wget xz-utils -y
 
-RUN wget https://github.com/develsoftware/GMinerRelease/releases/download/2.47/gminer_2_47_linux64.tar.xz && \
-    tar xf gminer_2_47_linux64.tar.xz -C gminer
+RUN wget https://github.com/develsoftware/GMinerRelease/releases/download/2.49/gminer_2_49_linux64.tar.xz && \
+    tar xf gminer_2_49_linux64.tar.xz -C gminer
 
 
 FROM nvidia/cuda:10.2-base
