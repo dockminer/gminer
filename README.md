@@ -1,5 +1,9 @@
 # GMiner
 
+[![Docker Image CD](https://github.com/dockminer/gminer/actions/workflows/dockerimage-cd.yaml/badge.svg)](https://github.com/dockminer/gminer/actions/workflows/dockerimage-cd.yaml)
+[![Docker Pulls](https://img.shields.io/docker/pulls/dockminer/gminer?color=orange)](https://hub.docker.com/r/dockminer/gminer)
+[![GitHub](https://img.shields.io/github/license/dockminer/gminer?color=blue)](LICENSE.md)
+
 GMiner was created by a Russian group of specialists in the field of high performance computing and cryptography.
 
 The first version of GMiner was released on September 21, 2018 and was received quite warmly among users.<br/>
