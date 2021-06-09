@@ -2,11 +2,14 @@ FROM ubuntu:20.04 AS builder
 
 WORKDIR /tmp
 
+ARG GMINER_VERSION="2.55"
+ARG GMINER_FILENAME="gminer_2_55_linux64.tar.xz"
+
 RUN mkdir gminer &&\
     apt update && apt install tar wget xz-utils -y
 
-RUN wget https://github.com/develsoftware/GMinerRelease/releases/download/2.49/gminer_2_49_linux64.tar.xz && \
-    tar xf gminer_2_49_linux64.tar.xz -C gminer
+RUN wget https://github.com/develsoftware/GMinerRelease/releases/download/${GMINER_VERSION}/${GMINER_FILENAME} && \
+    tar xf ${GMINER_FILENAME} -C gminer
 
 
 FROM nvidia/cuda:10.2-base
