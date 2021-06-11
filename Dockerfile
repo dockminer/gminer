@@ -2,8 +2,8 @@ FROM ubuntu:20.04 AS builder
 
 WORKDIR /tmp
 
-ARG GMINER_VERSION="2.55"
-ARG GMINER_FILENAME="gminer_2_55_linux64.tar.xz"
+ARG GMINER_VERSION="2.56"
+ARG GMINER_FILENAME="gminer_2_56_linux64.tar.xz"
 
 RUN mkdir gminer &&\
     apt update && apt install tar wget xz-utils -y
