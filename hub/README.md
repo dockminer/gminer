@@ -7,7 +7,7 @@
 # Supported tags and respective `Dockerfile` links
 
 - [`2.69`, `latest`](https://github.com/dockminer/gminer/blob/v2.69/Dockerfile)
-- [`2.64``](https://github.com/dockminer/gminer/blob/v2.64/Dockerfile)
+- [`2.64`](https://github.com/dockminer/gminer/blob/v2.64/Dockerfile)
 - [`2.63`](https://github.com/dockminer/gminer/blob/v2.63/Dockerfile)
 - [`2.56`](https://github.com/dockminer/gminer/blob/v2.56/Dockerfile)
 - [`2.55`](https://github.com/dockminer/gminer/blob/v2.55/Dockerfile)
