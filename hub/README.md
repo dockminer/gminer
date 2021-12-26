@@ -6,12 +6,10 @@
 
 # Supported tags and respective `Dockerfile` links
 
-- [`2.73`, `latest`](https://github.com/dockminer/gminer/blob/v2.73/Dockerfile)
+- [`2.74`, `latest`](https://github.com/dockminer/gminer/blob/v2.74/Dockerfile)
+- [`2.73`](https://github.com/dockminer/gminer/blob/v2.73/Dockerfile)
 - [`2.69`](https://github.com/dockminer/gminer/blob/v2.69/Dockerfile)
 - [`2.64`](https://github.com/dockminer/gminer/blob/v2.64/Dockerfile)
-- [`2.63`](https://github.com/dockminer/gminer/blob/v2.63/Dockerfile)
-- [`2.56`](https://github.com/dockminer/gminer/blob/v2.56/Dockerfile)
-- [`2.55`](https://github.com/dockminer/gminer/blob/v2.55/Dockerfile)
 
 # What is GMiner?
 
@@ -44,4 +42,4 @@ In default, the docker expose the 8080 port for GMiner monitoring page, you can 
 This image is built on top of the following softwares:
 
 - [Nvidia CUDA Container](https://gitlab.com/nvidia/container-images/cuda) v10.2
-- [GMiner](https://github.com/develsoftware/GMinerRelease) v2.73
+- [GMiner](https://github.com/develsoftware/GMinerRelease) v2.74
