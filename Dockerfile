@@ -12,14 +12,14 @@ RUN wget https://github.com/develsoftware/GMinerRelease/releases/download/${GMIN
     tar xf ${GMINER_FILENAME} -C gminer
 
 
-FROM nvidia/cuda:10.2-base
+FROM nvidia/cuda:11.6.0-base-ubuntu20.04
 
 LABEL maintainer="Dockminer"
 
 LABEL org.opencontainers.image.source https://github.com/dockminer/gminer
 
 # Fix Driver bug
-RUN ln -s /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.1 /usr/lib/x86_64-linux-gnu/libnvidia-ml.so
+# RUN ln -s /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.1 /usr/lib/x86_64-linux-gnu/libnvidia-ml.so
 
 COPY --from=builder /tmp/gminer/miner /usr/local/bin/miner
 
