@@ -12,7 +12,7 @@ RUN wget https://github.com/develsoftware/GMinerRelease/releases/download/${GMIN
     tar xf ${GMINER_FILENAME} -C gminer
 
 
-FROM nvidia/cuda:11.6.0-base-ubuntu20.04
+FROM nvidia/cuda:11.3.1-base-ubuntu20.04
 
 LABEL maintainer="Dockminer"
 
